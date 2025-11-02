@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: "Courier New", monospace, Garamond, serif;
+}
+
+
+header {
+    background-color: darkcyan;
+    display: flex;
+}
+
+nav {
+    background-color: darkslategray;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li a {
+    color: ivory;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+li a:hover {
+    background-color: #426d6d;
+    padding: 1rem;
+}
+
+main {
+    background-color: #8dacae;
+    padding-bottom: 20rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+h1 {
+    box-sizing: border-box;
+    margin: 0;
+    padding-bottom: 2rem;
+    padding-top: 10rem;
+    text-align: center;
+    color: #1e3c3c;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-description {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    color: #1e3c3c;
+}
+
+.product-page-description {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    color: #1e3c3c;
+}
+
+section {
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.product {
+    background-color: floralwhite;
+    margin: 1rem;
+    width: calc(100% / 3);
+}
+
+h3 {
+    padding-left: 3rem;
+    color: #1e3c3c;
+
+}
+
+.product-description {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+    color: #1e3c3c;
+
+}
+
+h2 {
+    box-sizing: border-box;
+    margin: 0;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    text-align: left;
+    color: #1e3c3c;
+}
+
+.contact {
+    display: flex;
+}
+
+.map {
+    float: right;
+    margin-right: 1rem;
+    margin-left: auto;
+}
